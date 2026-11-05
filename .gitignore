@@ -1,0 +1,23 @@
+# Written into the working directory by build_scene on every run
+simulations/
+
+# Default output of run_experiment.py when --out and --csv are not given
+/results_troughs.csv
+
+# Generated outputs. The dataset itself,
+# results_final/results_troughs_final.csv, is tracked and must stay.
+results_final/figures/
+results_final/clouds/
+results_new/
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Editors and OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db

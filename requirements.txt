@@ -1,0 +1,10 @@
+# Tested with Python 3.12.10 on Windows 11.
+# The versions in comments are the ones the thesis results were produced with.
+
+numpy>=1.26          # tested 2.4.2
+scipy>=1.11          # tested 1.17.1   (scipy.optimize.linprog, HiGHS)
+matplotlib>=3.8      # tested 3.11.1   (figures only)
+open3d>=0.18         # tested 0.19.0   (mesh construction and ray casting)
+
+# open3d is needed only to SIMULATE clouds (run_experiment.py). The analysis
+# and figure scripts read the CSV and need numpy, scipy and matplotlib alone.
