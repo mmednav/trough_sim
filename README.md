@@ -2,12 +2,6 @@
 
 Code accompanying the master's thesis *Algorithms for shape-detection in CSP solar plants* (Universidad de Sevilla, Faculty of Mathematics).
 
-**Parabolicity** is a minimum-zone form tolerance: the width of the narrowest
-corridor between two identical parabolas, one a translate of the other along
-their shared axis, that contains every point of a measured cloud. This
-repository computes it, and evaluates it as a defect detector on simulated
-laser scans of parabolic trough solar collectors.
-
 ## Install
 
 ```bash
